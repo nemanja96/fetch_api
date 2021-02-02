@@ -14,8 +14,7 @@ function getPosts() {
                     <p>${post.body}</p>
                 </div>
             `;
-        })
-        .catch((err) => console.log(err));
+        });
 
       document.getElementById("posts").innerHTML = output;
     });
