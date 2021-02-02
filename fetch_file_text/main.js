@@ -15,6 +15,5 @@ function getText() {
     .then((res) => res.text())
     .then((data) => {
       document.getElementById("output").innerHTML = "<h1>" + data + "</h1>";
-    })
-    .catch((err) => console.log(err));
+    });
 }
